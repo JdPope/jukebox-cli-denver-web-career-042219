@@ -37,12 +37,16 @@ end
   end
 end
   
-  def exit_jukebox
+def exit_jukebox
     puts "Goodbye"
-  end
+end
   
-  def run
+def run
   help
   puts "Please enter a command:"
   this_response = gets.chomp
-if 
+  if this_response 
+  
+  
+  
+  
