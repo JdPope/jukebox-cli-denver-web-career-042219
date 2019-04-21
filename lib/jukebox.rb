@@ -34,4 +34,6 @@ end
     puts "playing #{songs[(user_response.to_i)+1]}"
   else
     puts "Invaled input, please try again"
+  end
+end
    
