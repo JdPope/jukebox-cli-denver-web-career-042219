@@ -45,7 +45,17 @@ def run
   help
   puts "Please enter a command:"
   this_response = gets.chomp
-  if this_response 
+  if this_response == "list"
+    list
+  elsif this_response == "play"
+    play
+  elsif this_response == "help"
+    help
+  else this_response == "exit"
+    exit_jukebox break
+end
+end
+    
   
   
   
