@@ -52,7 +52,7 @@ def run
   elsif this_response == "help"
     help
   else this_response == "exit"
-    exit_jukebox break
+    exit_jukebox
 end
 end
     
