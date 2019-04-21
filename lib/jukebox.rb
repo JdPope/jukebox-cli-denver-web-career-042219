@@ -30,9 +30,8 @@ end
    user_response = gets.chomp
    if user_response.to_i > 0 <= songs.length+1
     puts "playing #{songs[(user_response.to_i)-1]}"
-   if songs.include?(user_response)
+   elsif songs.include?(user_response)
      puts "playing #{user_response}"
-   
   else
     puts "Invalid input, please try again"
   end
