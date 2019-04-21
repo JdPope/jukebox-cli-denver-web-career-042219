@@ -29,4 +29,6 @@ end
    puts "Please enter a song name or number:"
    user_response = gets.chomp
    if songs.include?(user_response)
+     puts "playing #{user_response}"
+   elsif 
    
