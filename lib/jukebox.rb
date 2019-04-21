@@ -30,5 +30,5 @@ end
    user_response = gets.chomp
    if songs.include?(user_response)
      puts "playing #{user_response}"
-   elsif 
+   elsif songs.include?(songs[user_response.])
    
